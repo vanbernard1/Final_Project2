@@ -19,6 +19,14 @@ namespace Final_Project2.Models
                     return; // DB has been seeded
                 }
 
+                context.Technician.AddRange(
+                    new Technician {TechName = "Vanessa Bernard", TechEmail = "vbernard@bisd.net"},
+                    new Technician {TechName = "DJ Rambo", TechEmail = "drambo@bisd.net"},
+                    new Technician {TechName = "Jason Bernard", TechEmail = "jbernard@bisd.net"},
+                    new Technician {TechName = "Madeline Bernard", TechEmail = "mbernard@bisd.net"},
+                    new Technician {TechName = "Zian Bernard", TechEmail = "zbernard@bisd.net"}
+                );
+
                 context.Ticket.AddRange(
                     new Ticket
                     {
@@ -27,6 +35,7 @@ namespace Final_Project2.Models
                         RoomNumber = 110,
                         CampusName = "Sunnydale High",
                         RequestType = "Hardware",
+                        TechnicianId = 2
                     },
 
                     new Ticket
@@ -35,7 +44,8 @@ namespace Final_Project2.Models
                         Name = "Mr. Belding",
                         RoomNumber = 111,
                         CampusName = "Bayside High",
-                        RequestType = "PA System"
+                        RequestType = "PA System",
+                        TechnicianId = 3
                     },
                     new Ticket
                     {
@@ -43,7 +53,8 @@ namespace Final_Project2.Models
                         Name = "Mr. Hand",
                         RoomNumber = 112,
                         CampusName = "Ridgemont",
-                        RequestType = "Teacher PC"
+                        RequestType = "Teacher PC", 
+                        TechnicianId = 4
                     },
                     new Ticket
                     {
@@ -51,7 +62,8 @@ namespace Final_Project2.Models
                         Name = "Mr. Holland",
                         RoomNumber = 113,
                         CampusName = "JFK High",
-                        RequestType = "Peripherals"
+                        RequestType = "Peripherals",
+                        TechnicianId = 5
                     },
 
                     new Ticket
@@ -60,7 +72,8 @@ namespace Final_Project2.Models
                         Name = "Joe Clark",
                         RoomNumber = 115,
                         CampusName = "Eastside High",
-                        RequestType = "Student PC"
+                        RequestType = "Student PC",
+                        TechnicianId = 1
                     },
                     new Ticket
                     {
@@ -68,7 +81,8 @@ namespace Final_Project2.Models
                         Name = "Richard Vernon",
                         RoomNumber = 116,
                         CampusName = "Shermer High",
-                        RequestType = "Printer Install"
+                        RequestType = "Printer Install",
+                        TechnicianId = 2
                     },
                     new Ticket
                     {
@@ -76,7 +90,8 @@ namespace Final_Project2.Models
                         Name = "Coach Calhoun",
                         RoomNumber = 117,
                         CampusName = "Rydell High",
-                        RequestType = "Teacher PC"
+                        RequestType = "Teacher PC",
+                        TechnicianId = 3
                     },
                     new Ticket
                     {
@@ -84,7 +99,8 @@ namespace Final_Project2.Models
                         Name = "Mr. Hall",
                         RoomNumber = 118,
                         CampusName = "Beverly Hills High",
-                        RequestType = "New Printer"
+                        RequestType = "New Printer",
+                        TechnicianId = 4
                     },
 
                     new Ticket
@@ -93,7 +109,8 @@ namespace Final_Project2.Models
                         Name = "Mr. Cleary",
                         RoomNumber = 119,
                         CampusName = "St. Matthews High School",
-                        RequestType = "SmartBoard"
+                        RequestType = "SmartBoard",
+                        TechnicianId = 5
                     },
 
                     new Ticket
@@ -102,7 +119,8 @@ namespace Final_Project2.Models
                         Name = "Wolfman Blumford",
                         RoomNumber = 120,
                         CampusName = "Pacific Coast High",
-                        RequestType = "Software"
+                        RequestType = "Software",
+                        TechnicianId = 1
                     },
                     new Ticket
                     {
@@ -110,7 +128,8 @@ namespace Final_Project2.Models
                         Name = "Scott Clarke",
                         RoomNumber = 121,
                         CampusName = "Hawkins Middle School",
-                        RequestType = "AV Request"
+                        RequestType = "AV Request",
+                        TechnicianId = 2
                     },
 
                     new Ticket
@@ -119,7 +138,8 @@ namespace Final_Project2.Models
                         Name = "Alaric Saltzman",
                         RoomNumber = 122,
                         CampusName = "Mystic Falls High",
-                        RequestType = "Login Issues"
+                        RequestType = "Login Issues",
+                        TechnicianId = 3
                     },
 
                     new Ticket
@@ -128,7 +148,8 @@ namespace Final_Project2.Models
                         Name = "Jennifer Calendar",
                         RoomNumber = 123,
                         CampusName = "Sunnydale High",
-                        RequestType = "Bluetooth Setup"
+                        RequestType = "Bluetooth Setup",
+                        TechnicianId = 4
                     },
                     new Ticket
                     {
@@ -136,7 +157,8 @@ namespace Final_Project2.Models
                         Name = "Principal Snyder",
                         RoomNumber = 124,
                         CampusName = "Sunnydale High",
-                        RequestType = "Hardware"
+                        RequestType = "Hardware",
+                        TechnicianId = 5
                     },
                     new Ticket
                     {
@@ -144,7 +166,8 @@ namespace Final_Project2.Models
                         Name = "Coach Teague",
                         RoomNumber = 125,
                         CampusName = "Smallville High School",
-                        RequestType = "Domain Password Reset"
+                        RequestType = "Domain Password Reset",
+                        TechnicianId = 1
                     },
 
                     new Ticket
@@ -153,7 +176,8 @@ namespace Final_Project2.Models
                         Name = "Walter White",
                         RoomNumber = 100,
                         CampusName = "J.P. Wynne High",
-                        RequestType = "Hardware"
+                        RequestType = "Hardware",
+                        TechnicianId = 2
                     },
 
                     new Ticket
@@ -162,7 +186,8 @@ namespace Final_Project2.Models
                         Name = "Principal Skinner",
                         RoomNumber = 101,
                         CampusName = "Springfield Elementary",
-                        RequestType = "Software"
+                        RequestType = "Software",
+                        TechnicianId = 3
                     },
 
                     new Ticket
@@ -171,7 +196,8 @@ namespace Final_Project2.Models
                         Name = "Mr. Feeny",
                         RoomNumber = 102,
                         CampusName = "John Adams High",
-                        RequestType = "Printer"
+                        RequestType = "Printer",
+                        TechnicianId = 4
                     },
                     new Ticket
                     {
@@ -179,7 +205,8 @@ namespace Final_Project2.Models
                         Name = "Ms. Bliss",
                         RoomNumber = 103,
                         CampusName = "JFK Jr. High",
-                        RequestType = "SmartBoard"
+                        RequestType = "SmartBoard",
+                        TechnicianId = 5
                     },
                     new Ticket
                     {
@@ -187,7 +214,8 @@ namespace Final_Project2.Models
                         Name = "Mr. Mackey",
                         RoomNumber = 104,
                         CampusName = "Southpark Elementary",
-                        RequestType = "Software"
+                        RequestType = "Software",
+                        TechnicianId = 1
                     },
                     new Ticket
                     {
@@ -195,7 +223,8 @@ namespace Final_Project2.Models
                         Name = "Mr. Kotter",
                         RoomNumber = 105,
                         CampusName = "James Buchanan High",
-                        RequestType = "Hardware"
+                        RequestType = "Hardware",
+                        TechnicianId = 2
                     },
                     new Ticket
                     {
@@ -203,7 +232,8 @@ namespace Final_Project2.Models
                         Name = "Jessica Day",
                         RoomNumber = 106,
                         CampusName = "LA High",
-                        RequestType = "Desktop Install"
+                        RequestType = "Desktop Install",
+                        TechnicianId = 3
                     },
                     new Ticket
                     {
@@ -211,7 +241,8 @@ namespace Final_Project2.Models
                         Name = "Mr. Collins",
                         RoomNumber = 107,
                         CampusName = "McKinley High",
-                        RequestType = "New Monitor"
+                        RequestType = "New Monitor",
+                        TechnicianId = 4
                     },
                     new Ticket
                     {
@@ -219,7 +250,8 @@ namespace Final_Project2.Models
                         Name = "Mr. Katimski",
                         RoomNumber = 108,
                         CampusName = "Liberty High",
-                        RequestType = "Chromebook"
+                        RequestType = "Chromebook",
+                        TechnicianId = 5
                     },
                     new Ticket
                     {
@@ -227,7 +259,8 @@ namespace Final_Project2.Models
                         Name = "Tamara Jacobs",
                         RoomNumber = 109,
                         CampusName = "Capeside High",
-                        RequestType = "Hardware"
+                        RequestType = "Hardware",
+                        TechnicianId = 1
                     }
                 );
                 context.SaveChanges();

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NDqt8rQz9aeYMxk572TxPEh/NsFkhcYl6GMpoaUdU/miEBGYUS7H/QFj+lKWb+cNMvPjdrGET0i/RSA03PuuBg==",
+  "dgSpecHash": "dlFEzoj4H5xq2+xZwShi2lzO3YhDN/xipaHl3jHp5MZ+IUt47YUpuRNredAGqQIWKSmVV7RYtmcxR3cs3qKkrA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vanes\\CIDM 3312\\Final_Project2\\Final_Project2\\Final_Project2.csproj",
+  "projectFilePath": "C:\\Users\\Vanes\\CIDM 3312\\Final_Project2\\Final_Project2\\Final_Project2\\Final_Project2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vanes\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Vanes\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

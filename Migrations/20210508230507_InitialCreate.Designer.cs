@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Final_Project2.Migrations
 {
     [DbContext(typeof(TicketDbContext))]
-    [Migration("20210508205731_InitialCreate")]
+    [Migration("20210508230507_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -30,9 +30,12 @@ namespace Final_Project2.Migrations
                     b.Property<string>("TechName")
                         .HasColumnType("TEXT");
 
+                    b.Property<int>("TicketId")
+                        .HasColumnType("INTEGER");
+
                     b.HasKey("TechnicianId");
 
-                    b.ToTable("Technicians");
+                    b.ToTable("Technician");
                 });
 
             modelBuilder.Entity("Final_Project2.Models.Ticket", b =>
@@ -63,7 +66,7 @@ namespace Final_Project2.Migrations
 
                     b.HasIndex("TechnicianId");
 
-                    b.ToTable("Tickets");
+                    b.ToTable("Ticket");
                 });
 
             modelBuilder.Entity("Final_Project2.Models.Ticket", b =>

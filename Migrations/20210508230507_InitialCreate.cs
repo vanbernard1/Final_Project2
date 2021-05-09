@@ -8,21 +8,22 @@ namespace Final_Project2.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Technicians",
+                name: "Technician",
                 columns: table => new
                 {
                     TechnicianId = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
                     TechName = table.Column<string>(type: "TEXT", nullable: true),
-                    TechEmail = table.Column<string>(type: "TEXT", nullable: true)
+                    TechEmail = table.Column<string>(type: "TEXT", nullable: true),
+                    TicketId = table.Column<int>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Technicians", x => x.TechnicianId);
+                    table.PrimaryKey("PK_Technician", x => x.TechnicianId);
                 });
 
             migrationBuilder.CreateTable(
-                name: "Tickets",
+                name: "Ticket",
                 columns: table => new
                 {
                     TicketId = table.Column<int>(type: "INTEGER", nullable: false)
@@ -36,28 +37,28 @@ namespace Final_Project2.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Tickets", x => x.TicketId);
+                    table.PrimaryKey("PK_Ticket", x => x.TicketId);
                     table.ForeignKey(
-                        name: "FK_Tickets_Technicians_TechnicianId",
+                        name: "FK_Ticket_Technician_TechnicianId",
                         column: x => x.TechnicianId,
-                        principalTable: "Technicians",
+                        principalTable: "Technician",
                         principalColumn: "TechnicianId",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Tickets_TechnicianId",
-                table: "Tickets",
+                name: "IX_Ticket_TechnicianId",
+                table: "Ticket",
                 column: "TechnicianId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Tickets");
+                name: "Ticket");
 
             migrationBuilder.DropTable(
-                name: "Technicians");
+                name: "Technician");
         }
     }
 }

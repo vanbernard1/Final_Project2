@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Vanes\\CIDM 3312\\Final_Project2\\Final_Project2\\Final_Project2.csproj",
+  "FilePath": "c:\\Users\\Vanes\\CIDM 3312\\Final_Project2\\Final_Project2\\Final_Project2\\Final_Project2.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14402,63 +14402,93 @@
   "RootNamespace": "Final_Project2",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Vanes\\CIDM 3312\\Final_Project2\\Final_Project2\\Pages\\_ViewImports.cshtml",
-      "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FilePath": "c:\\Users\\Vanes\\CIDM 3312\\Final_Project2\\Final_Project2\\Final_Project2\\Pages\\Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Vanes\\CIDM 3312\\Final_Project2\\Final_Project2\\Pages\\Tickets\\Edit.cshtml",
-      "TargetPath": "Pages\\Tickets\\Edit.cshtml",
+      "FilePath": "c:\\Users\\Vanes\\CIDM 3312\\Final_Project2\\Final_Project2\\Final_Project2\\Pages\\Technicians\\Delete.cshtml",
+      "TargetPath": "Pages\\Technicians\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Vanes\\CIDM 3312\\Final_Project2\\Final_Project2\\Pages\\Tickets\\Details.cshtml",
-      "TargetPath": "Pages\\Tickets\\Details.cshtml",
+      "FilePath": "c:\\Users\\Vanes\\CIDM 3312\\Final_Project2\\Final_Project2\\Final_Project2\\Pages\\Technicians\\Details.cshtml",
+      "TargetPath": "Pages\\Technicians\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Vanes\\CIDM 3312\\Final_Project2\\Final_Project2\\Pages\\Tickets\\Create.cshtml",
-      "TargetPath": "Pages\\Tickets\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Vanes\\CIDM 3312\\Final_Project2\\Final_Project2\\Pages\\Tickets\\Index.cshtml",
-      "TargetPath": "Pages\\Tickets\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Vanes\\CIDM 3312\\Final_Project2\\Final_Project2\\Pages\\Tickets\\Delete.cshtml",
-      "TargetPath": "Pages\\Tickets\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Vanes\\CIDM 3312\\Final_Project2\\Final_Project2\\Pages\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\Vanes\\CIDM 3312\\Final_Project2\\Final_Project2\\Final_Project2\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Vanes\\CIDM 3312\\Final_Project2\\Final_Project2\\Pages\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\Vanes\\CIDM 3312\\Final_Project2\\Final_Project2\\Final_Project2\\Pages\\Technicians\\Create.cshtml",
+      "TargetPath": "Pages\\Technicians\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Vanes\\CIDM 3312\\Final_Project2\\Final_Project2\\Final_Project2\\Pages\\Privacy.cshtml",
       "TargetPath": "Pages\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Vanes\\CIDM 3312\\Final_Project2\\Final_Project2\\Pages\\Shared\\_Layout.cshtml",
-      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Vanes\\CIDM 3312\\Final_Project2\\Final_Project2\\Pages\\Index.cshtml",
-      "TargetPath": "Pages\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Vanes\\CIDM 3312\\Final_Project2\\Final_Project2\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\Vanes\\CIDM 3312\\Final_Project2\\Final_Project2\\Final_Project2\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Vanes\\CIDM 3312\\Final_Project2\\Final_Project2\\Pages\\Error.cshtml",
-      "TargetPath": "Pages\\Error.cshtml",
+      "FilePath": "c:\\Users\\Vanes\\CIDM 3312\\Final_Project2\\Final_Project2\\Final_Project2\\Pages\\Tickets\\Index.cshtml",
+      "TargetPath": "Pages\\Tickets\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Vanes\\CIDM 3312\\Final_Project2\\Final_Project2\\Final_Project2\\Pages\\Tickets\\Create.cshtml",
+      "TargetPath": "Pages\\Tickets\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Vanes\\CIDM 3312\\Final_Project2\\Final_Project2\\Final_Project2\\Pages\\Technicians\\AddTicket.cshtml",
+      "TargetPath": "Pages\\Technicians\\AddTicket.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Vanes\\CIDM 3312\\Final_Project2\\Final_Project2\\Final_Project2\\Pages\\Tickets\\Delete.cshtml",
+      "TargetPath": "Pages\\Tickets\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Vanes\\CIDM 3312\\Final_Project2\\Final_Project2\\Final_Project2\\Pages\\Shared\\_Layout.cshtml",
+      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Vanes\\CIDM 3312\\Final_Project2\\Final_Project2\\Final_Project2\\Pages\\Tickets\\Edit.cshtml",
+      "TargetPath": "Pages\\Tickets\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Vanes\\CIDM 3312\\Final_Project2\\Final_Project2\\Final_Project2\\Pages\\Tickets\\Details.cshtml",
+      "TargetPath": "Pages\\Tickets\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Vanes\\CIDM 3312\\Final_Project2\\Final_Project2\\Final_Project2\\Pages\\Index.cshtml",
+      "TargetPath": "Pages\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Vanes\\CIDM 3312\\Final_Project2\\Final_Project2\\Final_Project2\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Vanes\\CIDM 3312\\Final_Project2\\Final_Project2\\Final_Project2\\Pages\\Technicians\\Edit.cshtml",
+      "TargetPath": "Pages\\Technicians\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Vanes\\CIDM 3312\\Final_Project2\\Final_Project2\\Final_Project2\\Pages\\Technicians\\Index.cshtml",
+      "TargetPath": "Pages\\Technicians\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],

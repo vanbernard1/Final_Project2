@@ -8932,11 +8932,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vanes\\CIDM 3312\\Final_Project2\\Final_Project2\\Final_Project2.csproj",
+      "projectUniqueName": "C:\\Users\\Vanes\\CIDM 3312\\Final_Project2\\Final_Project2\\Final_Project2\\Final_Project2.csproj",
       "projectName": "Final_Project2",
-      "projectPath": "C:\\Users\\Vanes\\CIDM 3312\\Final_Project2\\Final_Project2\\Final_Project2.csproj",
+      "projectPath": "C:\\Users\\Vanes\\CIDM 3312\\Final_Project2\\Final_Project2\\Final_Project2\\Final_Project2.csproj",
       "packagesPath": "C:\\Users\\Vanes\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vanes\\CIDM 3312\\Final_Project2\\Final_Project2\\obj\\",
+      "outputPath": "C:\\Users\\Vanes\\CIDM 3312\\Final_Project2\\Final_Project2\\Final_Project2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Vanes\\AppData\\Roaming\\NuGet\\NuGet.Config"

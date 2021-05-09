@@ -28,9 +28,12 @@ namespace Final_Project2.Migrations
                     b.Property<string>("TechName")
                         .HasColumnType("TEXT");
 
+                    b.Property<int>("TicketId")
+                        .HasColumnType("INTEGER");
+
                     b.HasKey("TechnicianId");
 
-                    b.ToTable("Technicians");
+                    b.ToTable("Technician");
                 });
 
             modelBuilder.Entity("Final_Project2.Models.Ticket", b =>
@@ -61,7 +64,7 @@ namespace Final_Project2.Migrations
 
                     b.HasIndex("TechnicianId");
 
-                    b.ToTable("Tickets");
+                    b.ToTable("Ticket");
                 });
 
             modelBuilder.Entity("Final_Project2.Models.Ticket", b =>
